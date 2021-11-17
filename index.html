@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning javaScripit</title>
+
+    <style>
+        body{
+            background:linear-gradient(to right bottom, lightgreen, rgb(3, 167, 58)) ;
+            color: #fff;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            font-family: monospace;
+            transition: all .3s ease-out;
+        }
+        .textwrap{
+            margin: 2rem;
+            padding: 1rem 2rem;
+            background-color: rgb(48, 48, 48);
+            color: #fff;
+
+        }
+
+        button{
+            font-size: 1.5rem;
+            padding: 1.5rem 2rem;
+            margin: 2rem;
+            background-color: white;
+            border: black;
+            color: black;
+            min-width: 3rem;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+            
+        }
+        button:hover{
+                transform: scale(1.03);
+                box-shadow: 0 3px 12px rgba(48, 48, 48, 0.322);
+            }
+       
+    </style>
+</head>
+
+<body>
+  
+    <div class="textwrap">
+        <h1>Background Color: <span class="currentColor"></span></h1>
+    </div>
+    <button type="button">Click Me</button>
+    <script src="hex.js"></script>
+</body>
+</html>
